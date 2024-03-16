@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/misEstilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="container">
+    <div id="cajaInfo">
+        <div id="infoContent">
+            <h1 id="text-curso">Curso de Edición</h1>
+            <h3 id="text-software">Software: <span>Photoshop</span></h3>
+            <p id="text-descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut nemo reiciendis neque accusamus impedit, enim, architecto asperiores consequatur expedita, reprehenderit quasi. Iste voluptatibus ipsa sit, fuga facere provident mollitia eos.</p>
+            <button>¡Inscribete!</button>
+        </div>
+    </div>
+    <div id="cajaForm">
+
+        <form id="formCourse" class="formCourse">
+            <div>
+                <label for="inputCurso">Nombre del Curso</label>
+                <input id="inputCurso" type="text" name="nombreCurso" placeholder="Nombre del Curso" required>        
+            </div>
+            <div>
+                <label for="inputSoftware">Software</label>
+                <input id="inputSoftware" type="text" name="software" placeholder="Software" required>
+            </div>
+            <div>
+                <label for="inputDescripcion">Descripción</label>
+                <textarea id="inputDescripcion" placeholder="Descripción" required></textarea>
+            </div>
+            <button type="submit" class="btnActualizar">Actualizar</button>
+        </form>
+
+        <div id="containerImages">
+
+            <p>Nueva Imagen:</p>
+
+            <div id="imgMin">
+                <div class="min">
+                    <img src="../images/car.jpg">
+                </div>
+                <div class="min">
+                    <img src="../images/game.png">
+                </div>
+                <div class="min">
+                    <img src="../images/film.jpg">
+                </div>
+                <div class="min">
+                    <img src="../images/3d.jpg">
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+    
+<script src="./js/miCodigo.js"></script>
+
+</body>
+</html>

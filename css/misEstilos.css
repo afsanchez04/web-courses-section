@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    min-width: 696px;
+}
+
+p{
+   line-height: 25px;
+}
+
+.formCourse{
+    display: grid;
+    gap: 20px;
+}
+
+#cajaInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 100vh;
+    background: url(../images/car.jpg);
+    background-size: cover;
+}
+
+#cajaInfo #infoContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 100vh;
+    width: 100%;
+    padding: 0px 20px 0 30px;
+    background: #29292996;
+    color: #fff;
+}
+
+
+#cajaInfo h1, #cajaInfo h3, #cajaInfo p, #cajaInfo button{
+    margin-bottom: 15px;
+}
+
+#cajaInfo h1{
+    font-size: 3em;
+}
+
+#cajaForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+    padding: 20px;
+}
+
+#formCourse{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 300px;
+}
+
+#formCourse div{
+    width: 100%;
+}
+
+#formCourse input, textarea{
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #b1b1b1;
+    box-shadow: none;
+    background: #e2e2e2;
+    width: 100%;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+button{
+    padding: 5px 20px;
+    border: none;
+    margin: 10px 0 25px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#containerMin p{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#imgMin{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+#imgMin .min{
+    height: 50px;
+    overflow: hidden;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+#imgMin .min img{
+    width: 155%;
+    margin: -10px 0 0 -10px;
+}
+
